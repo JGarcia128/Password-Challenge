@@ -64,6 +64,7 @@ function generatePassword() {
 
   console.log(randomCombo);
 
+  //After it generates the password it returns the generated password on display 
 
   for (var i = 0; i < passwordOptions.length; i++) {
     finalPassword += randomCombo[Math.floor(Math.random() * randomCombo.length)];
